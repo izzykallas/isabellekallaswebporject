@@ -1,0 +1,111 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Montserrat:wght@300&display=swap');
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.anchor a {
+  font-family: 'Comfortaa', cursive;
+  font-size: 30px;
+  color: grey;
+  padding: 30px;
+  padding-left: 50px;
+  padding-top: 50px;
+}
+
+.main-nav {
+  padding: 10px;
+  color: white;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+}
+
+.main-nav ul {
+  margin: 0;
+}
+
+.main-nav li {
+  display: inline;
+}
+
+.main-nav a {
+  padding: 2rem;
+  color: white;
+  text-align: center;
+}
+
+.main-header {
+  background-color: rgba(0, 0, 0, 0.2);
+  background-image: url(../assets/img/boatsunset.JPG);
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-position: bottom;
+  padding-bottom: 170px;
+}
+
+.header-h1 {
+  text-align: center;
+  text-anchor: middle;
+  font-size: 80px;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+
+.subheading {
+  font-family: 'Comfortaa', cursive;
+  font-size: 80px;
+  text-align: center;
+}
+
+.img-list {
+  position: relative;
+}
+
+.ol {
+  font-size: 30px;
+  font-family: 'Comfortaa', cursive;
+  font-weight: lighter;
+  text-align: left;
+  align-items: center;
+  padding-left: 200px;
+  padding-right: 200px;
+  align-items: baseline;
+}
+
+.ul {
+  font-size: 20px;
+  font-family:'Comfortaa', cursive;
+  padding-block-start: 1rem;
+  padding-block-end: 1rem;
+  padding-inline: .2rem;
+  line-height: 2rem;
+}
+
+.footer{
+  font-family: 'Comfortaa', cursive;;
+  bottom:0px;
+  height:70px;
+  left:5px;
+  right:5px;
+  font-size:20px;
+  color:grey;
+  text-align: center;
+  background-color: white;
+  
+}
+
+.bold {
+  font-weight: bold;
+}
+
+li a:hover{
+  color: black;
+}
